@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Inika:wght@100;200;300;400;500;600;700&display=swap);
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  color:darkslateblue;
+  margin: 0 60px;
+}
+
+body {
+  background: radial-gradient(#797979, #232931);
+  height: 120vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Inika', serif;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 3rem;
+  color:cornflowerblue;
+  font-family: 'Inika', serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.div{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.4s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 10px #232931;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+
+
+
+ .gradient-text {
+  background-color: red;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
